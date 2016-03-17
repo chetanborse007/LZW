@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 2.8)
+
+project(LZW CXX)
+
+# INCLUDE LZW HEADER FILES
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
+
+# LZW ENCODER SOURCE FILES
+set(LZW_ENCODER_SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/src/Trie.cpp ${CMAKE_CURRENT_SOURCE_DIR}/src/Encoder.cpp)
+
+# LZW DECODER SOURCE FILES
+set(LZW_DECODER_SOURCE ${CMAKE_CURRENT_SOURCE_DIR}/src/Decoder.cpp)
+
+# ADD LZW ENCODER TARGET
+add_executable(Encoder ${LZW_ENCODER_SOURCE})
+
+# ADD LZW DECODER TARGET
+add_executable(Decoder ${LZW_DECODER_SOURCE})
