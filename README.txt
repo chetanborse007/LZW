@@ -280,5 +280,5 @@ X. MAINTAINER
 -------------
 
 Name        Chetan Borse
-EMail ID    cborse@uncc.edu or chetanborse2106@gmail.com
+EMail ID    chetanborse2106@gmail.com
 LinkedIn    https://www.linkedin.com/in/chetanrborse
