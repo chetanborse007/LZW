@@ -1,2 +1,0 @@
-/My Computer/Academic/GitHub/LZW/build/CMakeFiles/Decoder.dir
-/My Computer/Academic/GitHub/LZW/build/CMakeFiles/Encoder.dir
