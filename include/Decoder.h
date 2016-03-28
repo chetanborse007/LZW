@@ -17,11 +17,12 @@
 #pragma once
 
 #include <iostream>
-#include <string>
+#include <string.h>
 #include <fstream>
 #include <cmath>
 #include <stdint.h>
 #include <map>
+#include <cstdlib>
 
 #include "FileStream.h"
 
