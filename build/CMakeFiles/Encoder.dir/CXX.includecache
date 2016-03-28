@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Encoder.h
+iostream
+-
+string.h
+-
+fstream
+-
+cmath
+-
+stdint.h
+-
+Trie.h
+../include/Trie.h
+FileStream.h
+../include/FileStream.h
+
+../include/FileStream.h
+iostream
+-
+fstream
+-
+stdint.h
+-
+
+../include/Trie.h
+iostream
+-
+string.h
+-
+vector
+-
+stdint.h
+-
+
+/My Computer/Academic/GitHub/LZW/src/Encoder.cpp
+Encoder.h
+/My Computer/Academic/GitHub/LZW/src/Encoder.h
+
+/My Computer/Academic/GitHub/LZW/src/Trie.cpp
+Trie.h
+/My Computer/Academic/GitHub/LZW/src/Trie.h
+

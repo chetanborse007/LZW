@@ -21,7 +21,6 @@
 #include <fstream>
 #include <cmath>
 #include <stdint.h>
-#include <cstdlib>
 
 #include "Trie.h"
 #include "FileStream.h"

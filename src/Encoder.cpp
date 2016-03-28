@@ -65,7 +65,7 @@ void Encoder::Encode(std::string pszTextFile)
     
     // Open a text file for reading text data and
     // a compressed file for writing encrypted data
-    hTextFile.open(pszTextFile.c_str());
+    hTextFile.open(pszTextFile);
     hCompressedFile.open(pszCompressedFile, std::ios::binary | std::ios::out);
     
     // Create a EncryptStream using which encrypted data is written to a file

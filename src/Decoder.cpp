@@ -63,7 +63,7 @@ void Decoder::Decode(std::string pszCompressedFile)
     
     // Open a compressed file for reading encrypted data and
     // a decompressed file for writing text data
-    hCompressedFile.open(pszCompressedFile.c_str(), std::ios_base::binary);
+    hCompressedFile.open(pszCompressedFile, std::ios_base::binary);
     hTextFile.open(pszTextFile, std::ios::out);
     
     // Create a DecryptStream using which encrypted data can be read
